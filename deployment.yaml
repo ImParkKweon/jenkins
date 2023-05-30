@@ -54,7 +54,7 @@ spec:
       volumes:
         - name: jenkins-data
           persistentVolumeClaim:
-              claimName: jenkins-pv-claim
+              claimName: jenkins-claim
       affinity:
         nodeAffinity:
           requiredDuringSchedulingIgnoredDuringExecution:
